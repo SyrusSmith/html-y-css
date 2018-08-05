@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+    font-size: 16px;
+}
+
+body{
+    background-image: url("../img/bg-body.png");
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.logo{
+    border-radius: 50%;
+    border: 1px solid black;
+    display: flex;
+    margin: 0.938em auto 1.875em;
+    width: 80%;
+}
+
+.main-header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.main-nav{
+    display: flex;
+    flex-direction: column;
+    padding: 1em 0 1em 0;
+    width: 100%;
+}
+
+.main-nav ul{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    width: 100%
+}
+
+.main-nav li{
+    background-color: rgb(50, 50, 50);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+/*.main-nav ul li:hover{
+    background-color: rgb(255, 100, 100);
+}*/
+
+.main-nav a{
+    color: white;
+    display: flex;
+    font-weight: bolder;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 1em;
+    width: 100%;
+}
+
+.main-nav a:hover{
+    background-color: white;
+    color: rgb(200, 0, 0);
+    font-size: 1.2em;
+}
+
+.banner img{
+    display: flex;
+    padding: 1em 0 1em 0;
+}
+
+.vip-products{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.product{
+    display: flex;
+    flex-direction: column;
+    padding: 0.5em 0 0.5em 0;
+    width: 100%;
+}
+
+.product img{
+    display: flex;
+    flex-direction: column;
+    padding: 0.5em 0 0.5em 0;
+    width: 100%;
+}
+
+.product h2{
+    font-weight: bolder;
+    text-transform: uppercase;
+    padding: 0.5em 0 0.5em 0;
+}
+
+.product p{
+    text-align: center;
+    padding: 0.5em 0 0.5em 0;
+    width: 100%;
+}
+
+.product a{
+    background-color: rgb(50, 50, 59);
+    border-radius: 5%;
+    color: white;
+    font-weight: bold;
+    margin: 0.5em auto 0.5em auto;
+    padding: 0.5em 0 0.5em 0;
+    text-align: center;
+    text-decoration: none;
+    width: 30%;
+}
