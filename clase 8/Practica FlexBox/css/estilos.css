@@ -1,0 +1,95 @@
+/* Reset minimo, las reglas en cada tag se describen 
+ por si mismas (= 
+ Pueden copiar y pegar el contenido al principio 
+ de la hoja de estilos principal */
+
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 420px;
+}
+
+.card{
+    align-items: center;
+    background-color: white;
+    border-radius: 3%;
+    display: flex;
+    flex-direction: column;
+    margin: 5%;
+    max-width: 100%;
+}
+
+.card-data{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+.card-data a{
+    background-color: gray;
+    border-radius: 3%;
+    color: white;
+    font-weight: normal;
+    /* height: 30px; */
+    text-decoration: none;
+    width: 150px;
+}
+
+.card-data h2, p, a{
+    /* display: flex; */
+    margin: 5%;
+}
+
+.card-image{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10% 0% 5% 0%;
+    width: 90%;
+}
+
+.card-image img{
+    border-radius: 50%;
+}
+
+.social-media{
+    display: flex;
+    justify-content: space-between;
+    padding: 5% 0% 5% 0%;
+    width: 100%;
+}
+
+body{
+    background-image: url(../images/bg-body.png);
+}
+
+h2{
+    font-weight: bolder;
+}
