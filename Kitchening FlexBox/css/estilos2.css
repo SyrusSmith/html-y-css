@@ -44,9 +44,10 @@ body{
 }
 
 .main-nav li{
-    background-color: rgb(50, 50, 50);
+    
     display: flex;
     flex-direction: column;
+    padding: 1em auto 1em auto;
     width: 100%;
 }
 
@@ -55,13 +56,15 @@ body{
 }*/
 
 .main-nav a{
+    background-color: rgb(50, 50, 50);
     color: white;
     display: flex;
+    flex-direction: column;
     font-weight: bolder;
+    padding: 1em auto 1em auto;
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
-    padding: 1em;
     width: 100%;
 }
 
@@ -110,7 +113,7 @@ body{
 
 .product a{
     background-color: rgb(50, 50, 59);
-    border-radius: 5%;
+    border-radius: 5px;
     color: white;
     font-weight: bold;
     margin: 0.5em auto 0.5em auto;
@@ -118,4 +121,46 @@ body{
     text-align: center;
     text-decoration: none;
     width: 30%;
+}
+
+.product a:hover{
+    background-color: rgb(120, 0, 0);
+    font-size: 1.1em;
+}
+
+.main-footer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.main-footer ul{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    width: 100%;
+}
+
+.main-footer li{
+    display: flex;
+    flex-direction: column;
+    
+    width: 100%;
+}
+
+.main-footer a{
+    background-color: grey;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.main-footer a:hover{
+    background-color: black;
+    color: red;
+    font-size: 1.2em;
 }
